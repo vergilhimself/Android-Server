@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"> <!--я оставлю пока но это нужно реализовать через смену текста а не чрез новое окно-->
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Играть, что бы жить. Срыв."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Невероятный феномен Срыва всколыхнул мир. Играя в любимую онлайн-игру – будь осторожен при полном погружении в виртуал! Есть немалый шанс, что твое сознание сбросит оковы ущербного тела и навсегда останется в иной реальности. Горе тому, кто завис в «Тетрисе»! Не позавидуешь и тем, кто сотни раз в день вынужден гореть в броне танковых симуляторов… Но можно ли назвать счастливчиком того, кто сознательно воспользовался феноменом Срыва и добровольно погрузился в бескрайний мир меча и магии? Судьба не предоставила Глебу времени на размышления. Смертный приговор врачей перевернул последнюю страницу жизненного календаря. Как поступить – тихо угасать, вычеркивая оставшиеся дни один за другим, или рискнуть, решившись на Срыв?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

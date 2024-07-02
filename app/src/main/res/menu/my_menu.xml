@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/menuThemes" android:title="Тема"
+        android:icon="@drawable/button_svg_search"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menuGenres" android:title="Жанры"
+        android:icon="@drawable/button_svg_search"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item android:title="LitRPG" android:id="@+id/LitRPG"/>
+            <item android:title="Боевое фэнтези" android:id="@+id/BattleFantasy"/>
+            <item android:title="Борьба за выживание" android:id="@+id/Survival"/>
+            <item android:title="Виртуальная реальность" android:id="@+id/VR"/>
+            <item android:title="Героическое фэнтези" android:id="@+id/HeroicFantasy"/>
+            <item android:title="Роман" android:id="@+id/Romance"/>
+            <item android:title="Боевая фантастика" android:id="@+id/BattleFiction"/>
+            <item android:title="Бояръ-Аниме" android:id="@+id/Anime"/>
+            <item android:title="Фэнтези" android:id="@+id/Fantasy"/>
+        </menu>
+    </item>
+</menu>

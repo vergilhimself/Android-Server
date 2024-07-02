@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_green"/>
+    <item android:drawable="@drawable/button_svg_search" android:left="10dp" android:right="10dp"/>
+
+</layer-list>
+    <!--в конце использовано не будет
+    это пример возможного использования обединения фона и svg-->

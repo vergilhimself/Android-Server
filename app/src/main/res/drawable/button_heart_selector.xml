@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/button_heart_green" />
+    <item android:drawable="@drawable/button_heart" />
+</selector>
+<!--в конце использовано не будет
+это пример возможного использования селектора он при нажатии меняет svg местами-->
