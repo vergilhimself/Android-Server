@@ -95,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
                 searchBarText.clearFocus();
                 // Получаем экземпляр синглтона UserManager
                 UserManager userManager = UserManager.getInstance();
-
                 // Получаем значение почты
                 String email = userManager.getEmail();
                 String sqltask = "select * from books join favoriteBooks on books.BookId=favoritebooks.BookId WHERE favoritebooks.Email = " + "\"" +email + "\"";
